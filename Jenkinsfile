@@ -3,7 +3,7 @@ node {
   
   stage('Preparation') {
     git 'https://github.com/vgadikota/apigee_CI_config_proxy_sharedflow.git'
-   mvnHome = tool 'M3'
+   mvnHome = tool 'LOCALMAVEN'
   }
 
 try {
