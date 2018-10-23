@@ -12,7 +12,7 @@
           ],
           "resourcefiles":[
               {
-                "name": "lab",
+                "name": "test",
                 "type": "jsc",
                 "file": "./resourceFiles/jsc/test.js"
               }    
