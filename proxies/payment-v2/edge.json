@@ -1,7 +1,7 @@
 {
     "version": "1.0",
     "envConfig": {
-        "test": {
+        "lab": {
           "targetServers": [
               {
                 "name" : "mock",
@@ -12,7 +12,7 @@
           ],
           "resourcefiles":[
               {
-                "name": "test",
+                "name": "lab",
                 "type": "jsc",
                 "file": "./resourceFiles/jsc/test.js"
               }    
