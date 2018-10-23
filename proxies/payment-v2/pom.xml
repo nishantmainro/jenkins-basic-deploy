@@ -156,7 +156,7 @@
                             <goal>flowhooks</goal>
                         </goals>
                     </execution>
-                    <execution>
+                    <!--<execution>
                         <id>create-config-apiproduct</id>
                         <phase>install</phase>                        
                         <goals>
@@ -169,7 +169,7 @@
                         <goals>
                             <goal>developers</goal>
                         </goals>
-                    </execution>
+                    </execution>-->
                     <execution>
                         <id>create-config-app</id>
                         <phase>install</phase>                        
