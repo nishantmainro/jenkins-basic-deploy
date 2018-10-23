@@ -60,6 +60,23 @@
 			</properties>
 		</profile>
 		<profile>
+			<id>lab</id>
+			<properties>
+				<apigee.profile>lab</apigee.profile>
+				<apigee.env>lab</apigee.env>
+				<apigee.hosturl>${hosturl}</apigee.hosturl>
+				<apigee.apiversion>v1</apigee.apiversion>
+				<apigee.org>${org}</apigee.org>
+				<apigee.username>${username}</apigee.username>
+				<apigee.password>${password}</apigee.password>
+				<apigee.options>override</apigee.options>
+				<apigee.override.delay>5</apigee.override.delay>
+				<api.northbound.domain>${org}-test.apigee.net</api.northbound.domain>
+				<api.testtag>~@wip</api.testtag>
+				<apigee.apitype>${apitype}</apigee.apitype>
+			</properties>
+		</profile>
+		<profile>
 			<id>prod</id>
 			<properties>
 				<apigee.profile>prod</apigee.profile>
