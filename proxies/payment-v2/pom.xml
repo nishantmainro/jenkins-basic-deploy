@@ -233,7 +233,7 @@
 					</execution>-->
 					<!-- run apigeelint -->
 					<!-- its got issues on Jenkins -->
-					<execution>
+					<!--<execution>
 						<id>apigeelint</id>
 						<phase>validate</phase>
 						<goals>
@@ -245,9 +245,9 @@
 								./node_modules/apigeelint/cli.js -s ./apiproxy -f table.js
 							</commandlineArgs>
 						</configuration>
-					</execution>
+					</execution>-->
 					<!-- run integration tests -->
-					<execution>
+					<!--<execution>
 						<id>integration</id>
 						<phase>install</phase>
 						<goals>
@@ -259,7 +259,7 @@
 								target/test/integration/features --tags ${api.testtag} --format json:target/reports.json
 							</commandlineArgs>
 						</configuration>
-					</execution>
+					</execution>-->
 				</executions>
 			</plugin>
         </plugins>
