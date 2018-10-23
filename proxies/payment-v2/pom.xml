@@ -60,11 +60,11 @@
 			</properties>
 		</profile>
 		<profile>
-			<id>lab</id>
+			<id>test</id>
 			<properties>
-				<apigee.profile>lab</apigee.profile>
-				<apigee.env>lab</apigee.env>
-				<apigee.hosturl>${hosturl}</apigee.hosturl>
+				<apigee.profile>test</apigee.profile>
+				<apigee.env>test</apigee.env>
+				<apigee.hosturl>https://nishantmainro-eval-test.apigee.net</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion>
 				<apigee.org>${org}</apigee.org>
 				<apigee.username>${username}</apigee.username>
