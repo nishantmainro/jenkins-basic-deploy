@@ -12,5 +12,11 @@
             "proxies": [],
             "targets": []
         }
+        {
+            "name": "lab",
+            "policies": [],
+            "proxies": [],
+            "targets": []
+        }
     ]
 }
