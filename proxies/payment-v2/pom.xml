@@ -270,12 +270,12 @@
 						<goals>
 							<goal>exec</goal>
 						</goals>
-						<!--<configuration>
+						<!-- <configuration>
 							<executable>./node_modules/cucumber/bin/cucumber.js</executable>
 							<commandlineArgs>
 								target/test/integration/features --tags ${api.testtag} --format json:target/reports.json
 							</commandlineArgs>
-						</configuration>-->
+						</configuration> -->
 					</execution>
 				</executions>
 			</plugin>
